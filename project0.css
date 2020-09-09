@@ -1,0 +1,91 @@
+img {
+  position: absolute;
+  top: 100px;
+  left: 500px;
+}
+#images {
+  position:absolute;
+  left: 1230px;
+  text-decoration-color: blue;
+}
+#images:hover {
+  text-decoration-color: violet;
+}
+.bar {
+  position: absolute;
+  border-style:none;
+  border-radius: 25px;
+  top: 400px;
+  left: 420px;
+  width: 550px;
+  height: 35px;
+  opacity: 80%;
+  background-color: #f2e6ff;
+}
+.go {
+  position: absolute;
+  border-radius:0%;
+  border-radius: 10px;
+  top: 470px;
+  left: 480px;
+  height:33px;
+  width:170px;
+  opacity: 70%;
+  background-color: #809fff;
+  text-align: center;
+ border-style: none;
+}
+.go:hover {
+  background-color:#2262e3;
+}
+.lucky {
+  position: absolute;
+  border-radius:0%;
+  border-radius: 10px;
+  top: 470px;
+  left: 730px;
+  height: 33px;
+  width: 170px;
+  opacity: 70%;
+  background-color: LightGray;
+  text-align: center;
+  border-style: none;
+}
+.lucky:hover {
+  background-color: #8cff66;
+}
+#adv {
+    position:absolute;
+    left: 1100px;
+    text-decoration-color: blue;
+}
+.adv  {
+  position: absolute;
+  right: 70px;
+  background-color: LightGray;
+  text-align: center;
+  border-style: none;
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  top: 10px;
+  font-family: fantasy;
+}
+.img {
+  position: absolute;
+  right: 250px;
+  background-color: LightGray;
+  text-align: center;
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  top: 10px;
+  border-style: none;
+  font-family: fantasy;
+}
+.img:hover{
+  background-color: #1889f2
+}
+.adv:hover{
+  background-color: #f04646
+}
