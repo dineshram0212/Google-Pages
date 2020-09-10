@@ -4,26 +4,19 @@ img {
   left: 550px;
   width: auto;
 }
-#images {
-  position:absolute;
-  left: 1230px;
-  text-decoration-color: blue;
-}
-#images:hover {
-  text-decoration-color: violet;
-}
+
 .bar {
   position: absolute;
   border-style:solid;
   border-radius: 25px;
   top: 275px;
-  left: 400px;
-  width: 570px;
+  left: 380px;
+  width: 600px;
   height: 40px;
   opacity: 80%;
-  border-block-color: lightgray;
+  border-color: lightgray;
   background-color:white;
-  border-block-width: 1px;
+  border-width: 1px;
 }
 .go {
   position: absolute;
@@ -32,7 +25,7 @@ img {
   top: 350px;
   left: 550px;
   height:40px;
-  width:130px;
+  width:125px;
   opacity: 50%;
   background-color:lightgray;
   text-align: center;
@@ -50,9 +43,9 @@ img {
   border-radius:0%;
   border-radius: 3px;
   top: 350px;
-  left: 700px;
+  left: 690px;
   height: 40px;
-  width: 130px;
+  width: 125px;
   opacity: 50%;
   background-color: LightGray;
   text-align: center;
@@ -65,38 +58,30 @@ img {
   opacity:80%;
   transition:0.2s ;
 }
-#adv {
-    position:absolute;
-    left: 1100px;
-    text-decoration-color: blue;
-}
-.adv  {
-  position: absolute;
-  right: 70px;
-  background-color: LightGray;
-  text-align: center;
-  border-style: none;
-  width: 150px;
-  height: 40px;
-  border-radius: 10px;
-  top: 10px;
-  font-family: fantasy;
-}
+
 .img {
   position: absolute;
-  right: 250px;
-  background-color: LightGray;
-  text-align: center;
-  width: 100px;
-  height: 40px;
-  border-radius: 10px;
-  top: 10px;
-  border-style: none;
-  font-family: fantasy;
+  right: 180px;
+  top: 30px;
+  font-size: smaller;
+  font-family: sans-serif;
+  text-decoration:none ;
+  color: black;
 }
-.img:hover{
-  background-color: #1889f2
+.adv {
+  position: absolute;
+  right: 60px;
+  top: 30px;
+  font-size: smaller;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: black;
 }
-.adv:hover{
-  background-color: #f04646
+.img:hover {
+  text-decoration: underline;
+  transition:0.3s ;
+}
+.adv:hover {
+  text-decoration:underline;
+  transition: 0.3s;
 }
