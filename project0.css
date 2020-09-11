@@ -6,6 +6,8 @@ img {
 }
 
 .bar {
+  font-family: fontawesome;
+  font-size: 18px;
   position: absolute;
   border-style:solid;
   border-radius: 25px;
@@ -17,6 +19,9 @@ img {
   border-color: lightgray;
   background-color:white;
   border-width: 1px;
+}
+.go, .lucky {
+font-family: Helvetica;
 }
 .go {
   position: absolute;
@@ -37,6 +42,7 @@ img {
   border-color: black;
   opacity:80%;
   transition:0.2s ;
+  cursor: pointer;
 }
 .lucky {
   position: absolute;
@@ -57,6 +63,7 @@ img {
   border-color: black;
   opacity:80%;
   transition:0.2s ;
+  cursor: pointer;
 }
 
 .img {

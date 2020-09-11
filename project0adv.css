@@ -1,15 +1,17 @@
-
+body {
+  font-family: Arial, sans-serif;
+}
 h2 {
   background-color: none;
   border-color: LightGray;
   left: 500px;
   color: #ed300e;
-  font-family: arial;
+  font-family:inherit;
   position: absolute;
   vertical-align: baseline;
   left:50px;
   font-size: 20px;
-  top: 80px
+  top: 70px
 }
 div {
   background-color: #e6e4e3;
@@ -26,7 +28,7 @@ img {
   left: 17px;
   opacity: 100%
 }
-h4 {
+.head {
   font-family: sans-serif;
   position: absolute;
   left: 50px;
@@ -34,7 +36,7 @@ h4 {
 }
 .p1 {
   position: absolute;
-  top: 240px;
+  top: 235px;
   left: 50px;
   font-family: sans-serif;
   font-size: 13px
@@ -57,41 +59,45 @@ h4 {
 }
 .f5 {
   position: absolute;
-  left: 300px;
+  left: 250px;
 }
 .f6 {
   position: absolute;
-  left: 450px
+  left: 500px
 }
 .f1 , .f2 , .f3 , .f4  {
   padding: 4px;
-  width: 300px;
-  left: 300px
+  width: 450px;
+  left: 250px;
+  height: 20px;
 }
 .f5, .f6 {
   padding: 4px;
-  width: 100px;
-  top: 440px
+  width: 200px;
+  top: 440px;
+  height: 20px;
 }
 text.to {
   position: absolute;
   top: 445px;
-  left: 423px;
+  left: 475px;
+  font-size: smaller;
   font-family: sans-serif;
 }
 .go {
   position: absolute;
   top: 490px;
-  left: 450px;
-  background-color: #d63024;
-  border-radius: 5px;
-  width: 150px;
-  height: 30px;
+  left: 565px;
+  background-color: gray;
+  border-radius: 3px;
+  width: 145px;
+  height: 35px;
   border-style: none;
   text-align: center;
   text-decoration-color: white;
 }
 .go:hover {
+  transition: 0.2s;
   background-color: #e32b12;
 }
 .back {
@@ -103,8 +109,39 @@ text.to {
   border-style: none;
   width: 100px;
   height: 40px;
-  border-radius: 10px
+  border-radius: 4px;
+  opacity: 50%;
 }
 .back:hover{
-  background-color:#1889f2
+  opacity: 80%;
+  border-style: solid;
+  border-color: gray;
+  transition: 0.1s;
+  border-width: 2px;
+}
+.p2 {
+  opacity: 60%;
+  position: absolute;
+  top: 230px;
+  right:220px;
+  font-family: sans-serif;
+  font-size:smaller;
+}
+.gray {
+  opacity: 60%;
+  font-family: sans-serif;
+  position: absolute;
+  top: 165px;
+  right: 445px;
+}
+hr.one {
+  background-color: gray;
+  color: gray;
+  border-color: gray;
+  width: 100%;
+  height: 0.1px;
+  position: absolute;
+  top: 130px;
+  left: 0px;
+  opacity: 10%;
 }
